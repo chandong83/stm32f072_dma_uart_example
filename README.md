@@ -20,3 +20,6 @@ DMA UART Pin : PA2(U2 Tx), PA3(U2 Rx)
 Debug Pin (for printf):  PA10(U1 Rx), PA9(U1 Tx)
 
 
+### Blog link
+
+https://blog.naver.com/chandong83/222036416616
