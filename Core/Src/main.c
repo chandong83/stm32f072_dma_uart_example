@@ -99,7 +99,7 @@ void uart_rx_dma_handler(){
 
 			if(pos > 0){
 				memcpy(&rx_buf[get_dma_total_size() - old_pos], &rx_dma_buf[0], pos);
-				rx_size += get_dma_total_size() - old_pos;
+				rx_size += pos;
 			}
 		}
 		old_pos = pos;
